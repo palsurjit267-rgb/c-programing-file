@@ -8,10 +8,11 @@ int main()
 	scanf("%d",&n);
 	while(i<=n)
 	{
+		printf("%d\t",term);
 		sum=sum+term;
-		term=term+i;
+		term=term+i ;
 		i++;
 	}
-	printf("sum of the term series=%d",sum);
+	printf("\n sum of the term series=%d",sum);
 	return 0;
 }
